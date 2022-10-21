@@ -1,0 +1,1801 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local DarknessHub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local SideFrame = Instance.new("Frame")
+local ColorFrame = Instance.new("Frame")
+local Scripts = Instance.new("TextButton")
+local home = Instance.new("ImageButton")
+local Credits = Instance.new("TextButton")
+local people = Instance.new("ImageButton")
+local Settings = Instance.new("TextButton")
+local settings = Instance.new("ImageButton")
+local DarknessHub_2 = Instance.new("TextLabel")
+local CreditsFrame = Instance.new("Frame")
+local Credits_2 = Instance.new("TextLabel")
+local ScriptsFrame = Instance.new("Frame")
+local RagdollEngineMalwareHub = Instance.new("TextButton")
+local CombatWarriorsProjectHook = Instance.new("TextButton")
+local InfYeild = Instance.new("TextButton")
+local PendulumHub = Instance.new("TextButton")
+local DhmChariotsWare = Instance.new("TextButton")
+local HoodCustomscamlock = Instance.new("TextButton")
+local HoodCustomsFeTitanNeedMaxBuff = Instance.new("TextButton")
+local SpamChat = Instance.new("TextButton")
+local SettingsFrame = Instance.new("Frame")
+local Settings_2 = Instance.new("TextLabel")
+local Settingscomingsoon = Instance.new("TextLabel")
+
+--Properties:
+
+DarknessHub.Name = "Darkness Hub"
+DarknessHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = DarknessHub
+Frame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Frame.Position = UDim2.new(0.0740354583, 0, 0.532142937, 0)
+Frame.Size = UDim2.new(0, 513, 0, 358)
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = Frame
+SideFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SideFrame.Position = UDim2.new(-0.194931775, 0, 0, 0)
+SideFrame.Size = UDim2.new(0, 136, 0, 358)
+
+ColorFrame.Name = "ColorFrame"
+ColorFrame.Parent = SideFrame
+ColorFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ColorFrame.Position = UDim2.new(-0.0073529412, 0, 0.00499917148, 0)
+ColorFrame.Size = UDim2.new(0, 614, 0, 49)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = SideFrame
+Scripts.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Scripts.Position = UDim2.new(0, 0, 0.136871502, 0)
+Scripts.Size = UDim2.new(0, 136, 0, 32)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextScaled = true
+Scripts.TextSize = 14.000
+Scripts.TextWrapped = true
+
+home.Name = "home"
+home.Parent = Scripts
+home.BackgroundTransparency = 1.000
+home.Position = UDim2.new(-0.00472792983, 0, 0.0838421285, 0)
+home.Size = UDim2.new(0, 25, 0, 25)
+home.ZIndex = 2
+home.Image = "rbxassetid://6764432408"
+home.ImageRectOffset = Vector2.new(150, 800)
+home.ImageRectSize = Vector2.new(50, 50)
+
+Credits.Name = "Credits"
+Credits.Parent = SideFrame
+Credits.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Credits.Position = UDim2.new(0, 0, 0.226256981, 0)
+Credits.Size = UDim2.new(0, 136, 0, 32)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+people.Name = "people"
+people.Parent = Credits
+people.BackgroundTransparency = 1.000
+people.Position = UDim2.new(-0.00472792983, 0, 0.108891964, 0)
+people.Size = UDim2.new(0, 25, 0, 25)
+people.ZIndex = 2
+people.Image = "rbxassetid://3926305904"
+people.ImageRectOffset = Vector2.new(144, 4)
+people.ImageRectSize = Vector2.new(24, 24)
+
+Settings.Name = "Settings"
+Settings.Parent = SideFrame
+Settings.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Settings.Position = UDim2.new(0, 0, 0.315642446, 0)
+Settings.Size = UDim2.new(0, 136, 0, 34)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = " Settings"
+Settings.TextColor3 = Color3.fromRGB(0, 0, 0)
+Settings.TextScaled = true
+Settings.TextSize = 14.000
+Settings.TextWrapped = true
+
+settings.Name = "settings"
+settings.Parent = Settings
+settings.BackgroundTransparency = 1.000
+settings.Position = UDim2.new(-0.00524929166, 0, 0.121192619, 0)
+settings.Size = UDim2.new(0, 25, 0, 25)
+settings.ZIndex = 2
+settings.Image = "rbxassetid://3926307971"
+settings.ImageRectOffset = Vector2.new(324, 124)
+settings.ImageRectSize = Vector2.new(36, 36)
+
+DarknessHub_2.Name = "Darkness Hub"
+DarknessHub_2.Parent = Frame
+DarknessHub_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+DarknessHub_2.BackgroundTransparency = 1.000
+DarknessHub_2.Position = UDim2.new(-0.194931775, 0, 0, 0)
+DarknessHub_2.Size = UDim2.new(0, 224, 0, 49)
+DarknessHub_2.Font = Enum.Font.Creepster
+DarknessHub_2.Text = "Darkness Hub"
+DarknessHub_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarknessHub_2.TextScaled = true
+DarknessHub_2.TextSize = 14.000
+DarknessHub_2.TextWrapped = true
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = Frame
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+CreditsFrame.BackgroundTransparency = 1.000
+CreditsFrame.Position = UDim2.new(0.0701754391, 0, 0.136871502, 0)
+CreditsFrame.Size = UDim2.new(0, 477, 0, 309)
+CreditsFrame.Visible = false
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = CreditsFrame
+Credits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.BackgroundTransparency = 1.000
+Credits_2.Position = UDim2.new(0.259958059, 0, 0.271844655, 0)
+Credits_2.Size = UDim2.new(0, 192, 0, 114)
+Credits_2.Font = Enum.Font.SourceSans
+Credits_2.Text = "Made by Darkness#9105"
+Credits_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits_2.TextScaled = true
+Credits_2.TextSize = 14.000
+Credits_2.TextWrapped = true
+
+ScriptsFrame.Name = "ScriptsFrame"
+ScriptsFrame.Parent = Frame
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+ScriptsFrame.BackgroundTransparency = 1.000
+ScriptsFrame.Position = UDim2.new(0.0701754391, 0, 0.136871502, 0)
+ScriptsFrame.Size = UDim2.new(0, 477, 0, 309)
+
+RagdollEngineMalwareHub.Name = "RagdollEngine MalwareHub"
+RagdollEngineMalwareHub.Parent = ScriptsFrame
+RagdollEngineMalwareHub.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+RagdollEngineMalwareHub.Size = UDim2.new(0, 148, 0, 41)
+RagdollEngineMalwareHub.ZIndex = 999999999
+RagdollEngineMalwareHub.Font = Enum.Font.SourceSans
+RagdollEngineMalwareHub.Text = "RagdollEngine MalwareHub"
+RagdollEngineMalwareHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+RagdollEngineMalwareHub.TextScaled = true
+RagdollEngineMalwareHub.TextSize = 14.000
+RagdollEngineMalwareHub.TextWrapped = true
+
+CombatWarriorsProjectHook.Name = "CombatWarriors ProjectHook"
+CombatWarriorsProjectHook.Parent = ScriptsFrame
+CombatWarriorsProjectHook.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+CombatWarriorsProjectHook.Position = UDim2.new(0.310272545, 0, 0, 0)
+CombatWarriorsProjectHook.Size = UDim2.new(0, 148, 0, 41)
+CombatWarriorsProjectHook.Font = Enum.Font.SourceSans
+CombatWarriorsProjectHook.Text = "CombatWarriors ProjectHook"
+CombatWarriorsProjectHook.TextColor3 = Color3.fromRGB(0, 0, 0)
+CombatWarriorsProjectHook.TextScaled = true
+CombatWarriorsProjectHook.TextSize = 14.000
+CombatWarriorsProjectHook.TextWrapped = true
+
+InfYeild.Name = "Inf Yeild"
+InfYeild.Parent = ScriptsFrame
+InfYeild.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+InfYeild.Position = UDim2.new(0.620545089, 0, 0.00323624606, 0)
+InfYeild.Size = UDim2.new(0, 181, 0, 40)
+InfYeild.Font = Enum.Font.SourceSans
+InfYeild.Text = "Inf Yeild"
+InfYeild.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYeild.TextScaled = true
+InfYeild.TextSize = 14.000
+InfYeild.TextWrapped = true
+
+PendulumHub.Name = "Pendulum Hub"
+PendulumHub.Parent = ScriptsFrame
+PendulumHub.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+PendulumHub.Position = UDim2.new(0, 0, 0.132686079, 0)
+PendulumHub.Size = UDim2.new(0, 148, 0, 41)
+PendulumHub.Font = Enum.Font.SourceSans
+PendulumHub.Text = "Pendulum Hub"
+PendulumHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+PendulumHub.TextScaled = true
+PendulumHub.TextSize = 14.000
+PendulumHub.TextWrapped = true
+
+DhmChariotsWare.Name = "Dhm ChariotsWare"
+DhmChariotsWare.Parent = ScriptsFrame
+DhmChariotsWare.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+DhmChariotsWare.Position = UDim2.new(0.310272545, 0, 0.132686079, 0)
+DhmChariotsWare.Size = UDim2.new(0, 148, 0, 41)
+DhmChariotsWare.Font = Enum.Font.SourceSans
+DhmChariotsWare.Text = "Dhm CW"
+DhmChariotsWare.TextColor3 = Color3.fromRGB(0, 0, 0)
+DhmChariotsWare.TextScaled = true
+DhmChariotsWare.TextSize = 14.000
+DhmChariotsWare.TextWrapped = true
+
+HoodCustomscamlock.Name = "Hood Customs camlock"
+HoodCustomscamlock.Parent = ScriptsFrame
+HoodCustomscamlock.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+HoodCustomscamlock.Position = UDim2.new(0.62054503, 0, 0.132686079, 0)
+HoodCustomscamlock.Size = UDim2.new(0, 181, 0, 41)
+HoodCustomscamlock.Font = Enum.Font.SourceSans
+HoodCustomscamlock.Text = "HoodCustoms CamLock"
+HoodCustomscamlock.TextColor3 = Color3.fromRGB(0, 0, 0)
+HoodCustomscamlock.TextScaled = true
+HoodCustomscamlock.TextSize = 14.000
+HoodCustomscamlock.TextWrapped = true
+
+HoodCustomsFeTitanNeedMaxBuff.Name = "Hood Customs Fe Titan(Need Max Buff)"
+HoodCustomsFeTitanNeedMaxBuff.Parent = ScriptsFrame
+HoodCustomsFeTitanNeedMaxBuff.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+HoodCustomsFeTitanNeedMaxBuff.Position = UDim2.new(0, 0, 0.265372157, 0)
+HoodCustomsFeTitanNeedMaxBuff.Size = UDim2.new(0, 148, 0, 41)
+HoodCustomsFeTitanNeedMaxBuff.Font = Enum.Font.SourceSans
+HoodCustomsFeTitanNeedMaxBuff.Text = "HoodCustoms FE Titan(Max Buff Type Rage!)"
+HoodCustomsFeTitanNeedMaxBuff.TextColor3 = Color3.fromRGB(0, 0, 0)
+HoodCustomsFeTitanNeedMaxBuff.TextScaled = true
+HoodCustomsFeTitanNeedMaxBuff.TextSize = 14.000
+HoodCustomsFeTitanNeedMaxBuff.TextWrapped = true
+
+SpamChat.Name = "Spam Chat"
+SpamChat.Parent = ScriptsFrame
+SpamChat.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+SpamChat.Position = UDim2.new(0.310272545, 0, 0.265372157, 0)
+SpamChat.Size = UDim2.new(0, 148, 0, 41)
+SpamChat.Font = Enum.Font.SourceSans
+SpamChat.Text = "Spam Chat"
+SpamChat.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpamChat.TextScaled = true
+SpamChat.TextSize = 14.000
+SpamChat.TextWrapped = true
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = Frame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+SettingsFrame.Position = UDim2.new(0.0701754391, 0, 0.142458096, 0)
+SettingsFrame.Size = UDim2.new(0, 477, 0, 307)
+SettingsFrame.Visible = false
+
+Settings_2.Name = "Settings:"
+Settings_2.Parent = SettingsFrame
+Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.BackgroundTransparency = 1.000
+Settings_2.Position = UDim2.new(0, 0, -0.00651465775, 0)
+Settings_2.Size = UDim2.new(0, 132, 0, 38)
+Settings_2.Font = Enum.Font.SourceSans
+Settings_2.Text = "Settings:"
+Settings_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Settings_2.TextScaled = true
+Settings_2.TextSize = 14.000
+Settings_2.TextWrapped = true
+
+Settingscomingsoon.Name = "Settings coming soon"
+Settingscomingsoon.Parent = SettingsFrame
+Settingscomingsoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settingscomingsoon.BackgroundTransparency = 1.000
+Settingscomingsoon.Position = UDim2.new(0.199161425, 0, 0.201954395, 0)
+Settingscomingsoon.Size = UDim2.new(0, 200, 0, 50)
+Settingscomingsoon.Font = Enum.Font.SourceSans
+Settingscomingsoon.Text = "Settings coming soon"
+Settingscomingsoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Settingscomingsoon.TextScaled = true
+Settingscomingsoon.TextSize = 14.000
+Settingscomingsoon.TextWrapped = true
+
+-- Scripts:
+
+local function GEHMYT_fake_script() -- Scripts.LocalScript 
+	local script = Instance.new('LocalScript', Scripts)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
+	end)
+end
+coroutine.wrap(GEHMYT_fake_script)()
+local function TSHQM_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = true
+		script.Parent.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
+	end)
+end
+coroutine.wrap(TSHQM_fake_script)()
+local function VQTEV_fake_script() -- Settings.LocalScript 
+	local script = Instance.new('LocalScript', Settings)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.SettingsFrame.Visible = true
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
+	end)
+end
+coroutine.wrap(VQTEV_fake_script)()
+local function ERZVRJF_fake_script() -- RagdollEngineMalwareHub.LocalScript 
+	local script = Instance.new('LocalScript', RagdollEngineMalwareHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestLuaScripts/Roblox/main/MalwareHub.lua"))()
+	end)
+end
+coroutine.wrap(ERZVRJF_fake_script)()
+local function ORMZFP_fake_script() -- CombatWarriorsProjectHook.LocalScript 
+	local script = Instance.new('LocalScript', CombatWarriorsProjectHook)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
+	end)
+end
+coroutine.wrap(ORMZFP_fake_script)()
+local function ODKFUF_fake_script() -- InfYeild.LocalScript 
+	local script = Instance.new('LocalScript', InfYeild)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(ODKFUF_fake_script)()
+local function EREZQ_fake_script() -- PendulumHub.LocalScript 
+	local script = Instance.new('LocalScript', PendulumHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Global = getgenv and getgenv() or _G
+		local setclipboard = setclipboard or print
+		Global.Reanimation = Global.Reanimation or "PermaDeath"
+		Global.FlingType = Global.FlingType or 'Mixed'
+	
+		local Enabled = true
+	
+		local Players = game:GetService("Players")
+		local UserInputService = game:GetService("UserInputService")
+		local CoreGui = game:GetService("CoreGui")
+		local Lighting = game:GetService('Lighting')
+		local TweenService = game:GetService('TweenService')
+	
+		local Blur = Instance.new("BlurEffect")
+		Blur.Size = 1
+	
+		local Camera = workspace.CurrentCamera
+	
+		Global._reanimate = loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/reanim.lua'))()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))()
+	
+		if not game:IsLoaded() then game.Loaded:Wait() end
+	
+		do -- UI
+			local Pendulum = Library:New("Pendulum Hub")
+			local SettingsTab = Pendulum:NewTab("Settings")
+			local CreditsTab = Pendulum:NewTab("Credits")
+			local OMGFESEX = Pendulum:NewTab("Sex 😏")
+			local LOL = Pendulum:NewTab("Bypass Audio Update")
+			local ScriptsTab = Pendulum:NewTab("Scripts")
+			local reanimtype = SettingsTab:NewLabel('Reanimation type: ' .. Global.Reanimation)
+			local flingtype = SettingsTab:NewLabel('Fling type: ' .. Global.FlingType)
+			SettingsTab:NewLabel('Note: HumanoidRootPart fling only works after permadeath is on')
+			local anim = Pendulum:NewTab('Animation ID Player')
+			local cwScriptsTab = Pendulum:NewTab('Coffeeware')
+	
+			UserInputService.InputBegan:Connect(function(Input,Typing)
+				if Input.KeyCode == Enum.KeyCode.L and not Typing and UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then
+					Enabled = not Enabled
+					if Enabled then
+						Pendulum:Show()
+					else
+						Pendulum:Hide()
+					end
+				end
+			end)
+	
+			do -- Reanimation Setting
+				SettingsTab:NewButton("Toggle Perma Death", "PermaDeath / Simple", function()
+					if Global.Reanimation == "PermaDeath" then
+						Global.Reanimation = "Simple"
+						Global.Fling = 'Right Arm'
+						reanimtype.Text = 'Reanimation Type: Simple'
+					elseif Global.Reanimation == "Simple" then
+						Global.Reanimation = "PermaDeath"
+						Global.Fling = 'HumanoidRootPart'
+						reanimtype.Text = 'Reanimation Type: PermaDeath'
+					end
+				end, true)
+				SettingsTab:NewButton("Toggle Fling Type", "Prediction only / Click only / Mixed", function()
+					if Global.FlingType == 'Mixed' then
+						Global.FlingType = 'Prediction only'
+					elseif Global.FlingType == 'Prediction only' then
+						Global.FlingType = 'Click only'
+					elseif Global.FlingType == 'Click only' then
+						Global.FlingType = 'Mixed'
+					end
+					flingtype.Text = 'Fling type: '.. Global.FlingType
+				end,true)
+			end
+	
+			do -- ScriptsTab Buttons
+				ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/34oqvdH"))()
+				end)
+	
+				ScriptsTab:NewButton("Sonic", "All other versions don't fling except this one.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Cmw7BP"))()
+				end)
+	
+				ScriptsTab:NewButton("Joy", "Its got some cute stufff", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IUQBUy"))()
+				end)
+	
+				ScriptsTab:NewButton("Elio Blasio", "Literally anyone with a gun. If you want hats join the discord.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HYO4ru"))()
+				end)
+	
+				ScriptsTab:NewButton("Ender", "Smashy boi", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35VT02P"))()
+				end)
+	
+				ScriptsTab:NewButton("KillBot V2", "The script kinda sucks lol", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sQWSuV"))()
+				end)
+	
+				ScriptsTab:NewButton("Star Platinum Over Heaven", "A really fun script for people who have played a jojo game before.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Cpvrvr"))()
+				end)
+	
+				ScriptsTab:NewButton("Chill", "You can get a lot of peoples attention with this.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pOdNfP"))()
+				end)
+	
+				ScriptsTab:NewButton("Lutris v2", "Definetely an OP script. Join discord for hat", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vKDz8A"))()
+				end)
+	
+				ScriptsTab:NewButton("Memeus v2.5", "Dead memes from 2019 (some arent dead)", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tHxG9k"))()
+				end)
+	
+				ScriptsTab:NewButton("Meme animation", "This one is just some emotes and dances.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35YGnnw"))()
+				end)
+	
+				ScriptsTab:NewButton("Krystal dance", "Some nice dances. My favorite is U.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KuRnbv"))()
+				end)
+	
+				ScriptsTab:NewButton("Spinning Blade", "Definetely has the best idle animation", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HTllEm"))()
+				end)
+	
+				ScriptsTab:NewButton("Xester", "The strongest script out of them all.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35xGEyg"))()
+				end)
+	
+				ScriptsTab:NewButton("Caducus", "Edgy demon guy.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Cln304"))()
+				end)
+	
+				ScriptsTab:NewButton("Minigun", "Have fun spraying skids.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Cqns13"))()
+				end)
+	
+				ScriptsTab:NewButton("Lightning Sword", "Similar to Dual Ultima. its basiclly an edit.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3CnTo6h"))()
+				end)
+	
+				ScriptsTab:NewButton("Corrupted Overseer", "My favorite script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3q8ECf5"))()
+				end)
+	
+				ScriptsTab:NewButton("Darth Vadar", "For the star wars fans.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vPlhD8"))()
+				end)
+	
+				ScriptsTab:NewButton("Sans", "left click to fling. time it with attacks to fling.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vMd56u"))()
+				end)
+	
+				ScriptsTab:NewButton("Zen", "literally zenyata", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IMQOcx"))()
+				end)
+	
+				ScriptsTab:NewButton("Gale Fighter", "Another classic!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3ClMnTL"))()
+				end)
+	
+				ScriptsTab:NewButton("Glove & Sword", "The script isn't broken press f to equip.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3ISOvVv"))()
+				end)
+	
+				ScriptsTab:NewButton("Reaper", "Reaper from Overwatch", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HTwHIe"))()
+				end)
+	
+				ScriptsTab:NewButton("Zenith Rifle", "Added because of high request.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KqkSLv"))()
+				end)
+	
+				ScriptsTab:NewButton("Abyss Eye", "This one is very intimidating.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/361gFPy"))()
+				end)
+	
+				ScriptsTab:NewButton("Bizzaro", "TPose thing", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3ClMr5X"))()
+				end)
+	
+				ScriptsTab:NewButton("Sword Guy", "I don't even know the name LOL.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sT1wsg"))()
+				end)
+	
+				ScriptsTab:NewButton("Sharpshooter", "Laser finger thing", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tCRdrI"))()
+				end)
+	
+				ScriptsTab:NewButton("Dual Pink Guns", "Reminds me of the matrix for some reason.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vOnA9r"))()
+				end)
+	
+				ScriptsTab:NewButton("Aureate", "This script can kill your frames in big games.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tEbNb5"))()
+				end)
+	
+				ScriptsTab:NewButton("Doomspire Brickbattler", "For people who say that old roblox is better.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35UvALg"))()
+				end)
+	
+				ScriptsTab:NewButton("Star Glitcher", "A free version that doesn't need any hats.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IXe080"))()
+				end)
+	
+				ScriptsTab:NewButton("Nightmare Sans", "From Dream!tale. Very strong.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3CoQgaf"))()
+				end)
+	
+				ScriptsTab:NewButton("Abyss Sword", "The first script I converted that uses a gear.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IV2mub"))()
+				end)
+	
+				ScriptsTab:NewButton("Dark Magic", "If you've played Black Magic you'll love this script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tGWxu2"))()
+				end)
+	
+				ScriptsTab:NewButton("Torando Gauntlet", "Gauntlet that makes tornados.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sPnaO5"))()
+				end)
+	
+				ScriptsTab:NewButton("Hidden blades - From AC", "This ones cool.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vOxqbA"))()
+				end)
+	
+				ScriptsTab:NewButton("Despira", "This one is a balanced range and close ranged script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3MyUAZe"))()
+				end)
+	
+				ScriptsTab:NewButton("Golden Fireball God", "This somehow reminds me of Asgore.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KI6j6j"))()
+				end)
+	
+				ScriptsTab:NewButton("Simple Sword", "There isn't much to it.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pMXkIS"))()
+				end)
+	
+				ScriptsTab:NewButton("Brutal Anti Furry", "Damn you must hate furrys.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HLqxdm"))()
+				end)
+	
+				ScriptsTab:NewButton("Omni God", "A stupidly powerful script if you know how to use fling properly.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Cq1nQc"))()
+				end)
+	
+				ScriptsTab:NewButton("Baldi", "https://www.youtube.com/watch?v=SciE-AbMLt0", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Kpj1GH"))()
+				end)
+	
+				ScriptsTab:NewButton("Shedletsky Rage", "Not to much about it.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pLSf3E"))()
+				end)
+	
+				ScriptsTab:NewButton("Nebula Star Glitcher", "Yes it has the big black lol.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IUb8ZC"))()
+				end)
+	
+				ScriptsTab:NewButton("Lustris PURPLE", "Purple version of Lustris and different powers", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3MzAGxq"))()
+				end)
+	
+				ScriptsTab:NewButton("Touhou Magic", "Rain bullet hell on em bitch.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pNw3Wz"))()
+				end)
+	
+				ScriptsTab:NewButton("Excalibur", "Its just a cool sword thing", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tB2Qzu"))()
+				end)
+	
+				ScriptsTab:NewButton("John Doe", "Yeah I added him back with better fling", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HWSAX7"))()
+				end)
+	
+				ScriptsTab:NewButton("What another one", "Yes thats the scripts name Mr. Skiddy Titty", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IUKqjB"))()
+				end)
+	
+				ScriptsTab:NewButton("Ether", "Do people even read these?", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KhwWyC"))()
+				end)
+	
+				ScriptsTab:NewButton("Uncle Parlo The Redneck", "Parlo is not a pedophile I swear!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tCGkpF"))()
+				end)
+	
+				ScriptsTab:NewButton("Eyo Zen", "Guy with eyeball that shoots lasers.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tB2UPK"))()
+				end)
+	
+				ScriptsTab:NewButton("Cop", "Your average cop.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3CnvhEK"))()
+				end)
+	
+				ScriptsTab:NewButton("Verlex", "Very unique script that i've seen.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/361hjws"))()
+				end)
+	
+				ScriptsTab:NewButton("Lost Hope", "Dragon Scythe thing and its cool", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pLoUX1"))()
+				end)
+	
+				ScriptsTab:NewButton("The Assasian", "A shit ton of moves that are epic", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Cm5lJI"))()
+				end)
+	
+				ScriptsTab:NewButton("Dragonian Pyramus", "Literally the fucking ender dragon.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HRNuvi"))()
+				end)
+	
+				ScriptsTab:NewButton("Grappler", "You can go to a city game and use this.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pIMKmg"))()
+				end)
+				LOL:NewLabel("WARNING: The script will take at least 10 seconds to load")
+				LOL:NewLabel("Please be patient!")
+				LOL:NewButton("Bypass Roblox Audio Update", "Be patient.", function()
+					loadstring(game:HttpGet('https://bit.ly/3TcD7sQ'))() 	
+				end)
+	
+				ScriptsTab:NewButton("Groundbreaker Gauntlets", "Gauntlets of death", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35JnOUC"))()
+				end)
+	
+				ScriptsTab:NewButton("Sexy Staff Girl", "Gauntlets of death", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35FwHyH"))()
+				end)
+	
+				ScriptsTab:NewButton("Jojo Super Gauntlets", "Why are there so many gauntlet scripts?", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35Fwyv5"))()
+				end)
+	
+				ScriptsTab:NewButton("The Pacifist", "No attacks. Just a very chill animation script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/361hKH6"))()
+				end)
+	
+				ScriptsTab:NewButton("Sakura Blade", "Barely any jitter in these animations.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pLoShL"))()
+				end)
+	
+				ScriptsTab:NewButton("M41451", "Rainbow AK47 needed join the discord for hat.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35FwKKT"))()
+				end)
+	
+				ScriptsTab:NewButton("Master Of Elements", "Badass script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IROgtC"))()
+				end)
+	
+				ScriptsTab:NewButton("AK47", "Very OP gun script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3hPAdJi"))()
+				end)
+	
+				ScriptsTab:NewButton("AKV", "Very high mag.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35z9zC3"))()
+				end)
+	
+				ScriptsTab:NewButton("Chips/Pillow", "Crank that real soldia boi.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IXeMlq"))()
+				end)
+	
+				ScriptsTab:NewButton("Noob Baseball Bat", "This one is very questionable...", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35ZY7il"))()
+				end)
+	
+				ScriptsTab:NewButton("Ban Sword", "very cool", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35UwqYq"))()
+				end)
+	
+				ScriptsTab:NewButton("Rainbow Banisher", "OMG RAINBOW HACKER", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sRGZEM"))()
+				end)
+	
+				ScriptsTab:NewButton("Flamethrower", "Terrorism. What else do you want me to say?", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tIk2TL"))()
+				end)
+	
+				ScriptsTab:NewButton("Energy Blade Slapper", "POV: you like to look like a retard.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/364fyi8"))()
+				end)
+	
+				ScriptsTab:NewButton("Sniper", "Stop playing COD and touch some grass.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sRLBdU"))()
+				end)
+	
+				ScriptsTab:NewButton("Echo Banisher", "Just your average banisher.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pN5il3"))()
+				end)
+	
+				ScriptsTab:NewButton("What do I even name this?", "you'll just have to execute it to find out what it is", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Ktz4Ua"))()
+				end)
+	
+				ScriptsTab:NewButton("Incension Reborn", "This is a really cool switcher thing.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tB3w80"))()
+				end)
+	
+				ScriptsTab:NewButton("The Sun Is A Deadly laser", "The Sun. What did you expect?", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35IeDUt"))()
+				end)
+	
+				ScriptsTab:NewButton("John Doe Blaster", "insert edgy hacker quote here", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3hKeXER"))()
+				end)
+	
+				ScriptsTab:NewButton("The Distorted", "Distorting aaaaa", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KtVYdJ"))()
+				end)
+	
+				ScriptsTab:NewButton("Drone", "I love this way to much", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IUPsN0"))()
+				end)
+	
+				ScriptsTab:NewButton("Pharoh", "Ankha momento", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3hRiaCx"))()
+				end)
+	
+				ScriptsTab:NewButton("Technoblade", "No this is not a minecraft script.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/34mb6KS"))()
+				end)
+	
+				ScriptsTab:NewButton("Demonic Sword", "Sword, nothin else. Pretty unoriginal", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HRBjih"))()
+				end)
+	
+				ScriptsTab:NewButton("SCP-106", "Scary aa", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HWTD9v"))()
+				end)
+	
+				ScriptsTab:NewButton("Chara", "knife girl sexy uwu", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3ClNT8p"))()
+				end)
+	
+				ScriptsTab:NewButton("Video Powers", "Infamous Second Son reference", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vSa70n"))()
+				end)
+	
+				ScriptsTab:NewButton("Bumper Cars", "Noob get rekt!!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3MIWQgT"))()
+				end)
+	
+				ScriptsTab:NewButton("God Eater", "Not the guy from fnf", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3Mv1iPX"))()
+				end)
+	
+				ScriptsTab:NewButton("Golden Claws", "swing", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tBemdX"))()
+				end)
+	
+				ScriptsTab:NewButton("Big Daddy", "thick", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KpMyjv"))()
+				end)
+	
+				ScriptsTab:NewButton("Noob Switcher", "Noob get rekt!!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vSfqwO"))()
+				end)
+	
+				ScriptsTab:NewButton("The Angle", "angel... more like angle", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3pLACAU"))()
+				end)
+	
+				ScriptsTab:NewButton("The Warden", "lock away their souls up your vagina", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3hM3zrM"))()
+				end)
+	
+				ScriptsTab:NewButton("Gaster", "man who speaks in handjobs", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3CloY4M"))()
+				end)
+	
+				ScriptsTab:NewButton("Killer", "scary", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/36ZZqyn"))()
+				end)
+	
+				ScriptsTab:NewButton("Spectrum Glitcher", "This also has the big black.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sSi0RN"))()
+				end)
+	
+				ScriptsTab:NewButton("Ultimate Switcher", "Ultimate automaticlly means its the best.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sQSbRW"))()
+				end)
+	
+				ScriptsTab:NewButton("Mask", "Little boy got mask and he died haha spoiler", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3sPoEYF"))()
+				end)
+	
+				ScriptsTab:NewButton("Switcher Wing Master", "Switch wing there so many modes", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tHAFyy"))()
+				end)
+	
+				ScriptsTab:NewButton("Sutart", "I love big bacon boy bacon penis in my mouth", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KtWzft"))()
+				end)
+	
+				ScriptsTab:NewButton("Xester V2 - In Pre-Alpha", "Currently usable, but still a WIP.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3KkYYcq"))()
+				end)
+	
+				ScriptsTab:NewButton("Dual Ultima", "Rainbow Tylenol is on keybind L :)", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3tCidre"))()
+				end)
+	
+				ScriptsTab:NewButton("Billie Elish", "Yes its that sexy bitch.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3HRJ2wK"))()
+				end)
+	
+				ScriptsTab:NewButton("Sans V2", "Don't read the undertail R34 comic.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3hNYMGt"))()
+				end)
+	
+				ScriptsTab:NewButton("Wing Gun Destroyer", "The Destroyer (Aligners will align wings)", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/37co9jf"))()
+				end)
+	
+				ScriptsTab:NewButton("Hacker X", "Hackers have massive cocks. Skids have tiny cocks.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3CqExIA"))()
+				end)
+	
+				ScriptsTab:NewButton("Carnage", "The ultimate mercenary. Seriously though do people read these? DM Tescalus if your reading this and he will give you 5 robux.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3vOp6s9"))()
+				end)
+	
+				ScriptsTab:NewButton("Minigun & Drone", "I wish one of these scripts used heavys minigun even though I can make it like that :(", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/34qersp"))()
+				end)
+	
+				ScriptsTab:NewButton("Internal War", "Basically a stand but not a stand.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3MKGqo3"))()
+				end)
+	
+				ScriptsTab:NewButton("Dear Sister Pistol", "A cool gun that does stuff", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3IDglnH"))()
+				end)
+	
+				ScriptsTab:NewButton("Amythest Ninja Blade", "A really powerful script with a FE golden trail!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3wAvlQN"))()
+				end)
+	
+				ScriptsTab:NewButton("PUBG Pan", "Very cool uh. Pan??!?!?!?!?", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/371egFu"))()
+				end)
+	
+				ScriptsTab:NewButton("Grab Knife V3 - Recommended", "Finished version of Grab Knife. I had to do it lol.", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3MBauma"))()
+				end)
+	
+				ScriptsTab:NewButton("Grab Knife V4", "EXTREMELY UNSTABLE! YOU HAVE BEEN WARNED!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/35zXBIm"))()
+				end)
+	
+				ScriptsTab:NewButton("Studio Dummy V3", "Omg public studio dummy v3 in pendulum free!?!?!!?!?!?!?!?!!?!?!?!?!?!?!?!!?!?!?!?!?!?!?!?!?!?!?!", function()
+					loadstring(game:HttpGetAsync("https://bit.ly/3QQiKAu"))()
+				end)
+	
+				ScriptsTab:NewSearchBar()
+			end
+	
+			do -- Degenerate Buttons
+				OMGFESEX:NewButton("Basic Bang", "Boy sex", function()
+					local number = "4966833843"
+	
+					if Global.Dancing == true then
+						Global.Dancing = false
+					end
+	
+					local aaa = 'rbxassetid://' .. number
+	
+					if (not Global.CloneRig) or game.Players.LocalPlayer.Character ~= Global.CloneRig then
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+					end
+	
+					local NeededAssets = game:GetObjects(aaa)[1]
+					local TweenService = game:GetService'TweenService'
+					if game.Players.LocalPlayer.Character.Humanoid:FindFirstChild("Animator") then game.Players.LocalPlayer.Character.Humanoid.Animator:Destroy() end
+					if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then game.Players.LocalPlayer.Character:FindFirstChild("Animate"):Destroy() end
+					local Joints = {
+						["Torso"] = game.Players.LocalPlayer.Character.HumanoidRootPart["RootJoint"],
+						["Right Arm"] =  game.Players.LocalPlayer.Character.Torso["Right Shoulder"],
+						["Left Arm"] =  game.Players.LocalPlayer.Character.Torso["Left Shoulder"],
+						["Head"] =  game.Players.LocalPlayer.Character.Torso["Neck"],
+						["Left Leg"] =  game.Players.LocalPlayer.Character.Torso["Left Hip"],
+						["Right Leg"] =  game.Players.LocalPlayer.Character.Torso["Right Hip"]
+					}
+					Global.dancing = true
+					local speed = 1
+					local keyframes = NeededAssets:GetKeyframes() -- get keyframes, this is better then getchildren bc it gets the correct order 
+					repeat
+						for ii,frame in pairs(keyframes) do -- for i,v on each keyframe to get each individual frame
+							local duration = keyframes[ii+1] and keyframes[ii+1].Time - frame.Time or task.wait(1/120)
+							print(tostring(duration))
+							if keyframes[ii-1] then
+								task.wait((frame.Time - keyframes[ii-1].Time)*speed)
+							end
+							for i,v in pairs(frame:GetDescendants()) do -- get each part in the frame
+								if Joints[v.Name] then -- see if the part exists in the joint table
+									TweenService:Create(Joints[v.Name],TweenInfo.new(duration*speed),{Transform = v.CFrame}):Play()
+								end
+							end
+						end
+						task.wait(1/120)
+					until Global.dancing == false
+	
+				end)
+	
+				OMGFESEX:NewButton([["Pushups"]], "Actual sex", function()
+					local number = "4966881089"
+	
+					if Global.Dancing == true then
+						Global.Dancing = false
+					end
+	
+					local aaa = 'rbxassetid://' .. number
+	
+					if (not Global.CloneRig) or game.Players.LocalPlayer.Character ~= Global.CloneRig then
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+					end
+	
+					local NeededAssets = game:GetObjects(aaa)[1]
+					local TweenService = game:GetService'TweenService'
+					if game.Players.LocalPlayer.Character.Humanoid:FindFirstChild("Animator") then game.Players.LocalPlayer.Character.Humanoid.Animator:Destroy() end
+					if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then game.Players.LocalPlayer.Character:FindFirstChild("Animate"):Destroy() end
+					local Joints = {
+						["Torso"] = game.Players.LocalPlayer.Character.HumanoidRootPart["RootJoint"],
+						["Right Arm"] =  game.Players.LocalPlayer.Character.Torso["Right Shoulder"],
+						["Left Arm"] =  game.Players.LocalPlayer.Character.Torso["Left Shoulder"],
+						["Head"] =  game.Players.LocalPlayer.Character.Torso["Neck"],
+						["Left Leg"] =  game.Players.LocalPlayer.Character.Torso["Left Hip"],
+						["Right Leg"] =  game.Players.LocalPlayer.Character.Torso["Right Hip"]
+					}
+					Global.dancing = true
+					local speed = 1
+					local keyframes = NeededAssets:GetKeyframes() -- get keyframes, this is better then getchildren bc it gets the correct order 
+					repeat
+						for ii,frame in pairs(keyframes) do -- for i,v on each keyframe to get each individual frame
+							local duration = keyframes[ii+1] and keyframes[ii+1].Time - frame.Time or task.wait(1/120)
+							print(tostring(duration))
+							if keyframes[ii-1] then
+								task.wait((frame.Time - keyframes[ii-1].Time)*speed)
+							end
+							for i,v in pairs(frame:GetDescendants()) do -- get each part in the frame
+								if Joints[v.Name] then -- see if the part exists in the joint table
+									TweenService:Create(Joints[v.Name],TweenInfo.new(duration*speed),{Transform = v.CFrame}):Play()
+								end
+							end
+						end
+						task.wait(1/120)
+					until Global.dancing == false
+	
+				end)
+				OMGFESEX:NewButton("Bend Over", "Girl sex", function()
+					local number = "4966882047"
+	
+					if Global.Dancing == true then
+						Global.Dancing = false
+					end
+	
+					local aaa = 'rbxassetid://' .. number
+	
+					if (not Global.CloneRig) or game.Players.LocalPlayer.Character ~= Global.CloneRig then
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+					end
+	
+					local NeededAssets = game:GetObjects(aaa)[1]
+					local TweenService = game:GetService'TweenService'
+					if game.Players.LocalPlayer.Character.Humanoid:FindFirstChild("Animator") then game.Players.LocalPlayer.Character.Humanoid.Animator:Destroy() end
+					if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then game.Players.LocalPlayer.Character:FindFirstChild("Animate"):Destroy() end
+					local Joints = {
+						["Torso"] = game.Players.LocalPlayer.Character.HumanoidRootPart["RootJoint"],
+						["Right Arm"] =  game.Players.LocalPlayer.Character.Torso["Right Shoulder"],
+						["Left Arm"] =  game.Players.LocalPlayer.Character.Torso["Left Shoulder"],
+						["Head"] =  game.Players.LocalPlayer.Character.Torso["Neck"],
+						["Left Leg"] =  game.Players.LocalPlayer.Character.Torso["Left Hip"],
+						["Right Leg"] =  game.Players.LocalPlayer.Character.Torso["Right Hip"]
+					}
+					Global.dancing = true
+					local speed = 1
+					local keyframes = NeededAssets:GetKeyframes() -- get keyframes, this is better then getchildren bc it gets the correct order 
+					repeat
+						for ii,frame in pairs(keyframes) do -- for i,v on each keyframe to get each individual frame
+							local duration = keyframes[ii+1] and keyframes[ii+1].Time - frame.Time or task.wait(1/120)
+							print(tostring(duration))
+							if keyframes[ii-1] then
+								task.wait((frame.Time - keyframes[ii-1].Time)*speed)
+							end
+							for i,v in pairs(frame:GetDescendants()) do -- get each part in the frame
+								if Joints[v.Name] then -- see if the part exists in the joint table
+									TweenService:Create(Joints[v.Name],TweenInfo.new(duration*speed),{Transform = v.CFrame}):Play()
+								end
+							end
+						end
+						task.wait(1/120)
+					until Global.dancing == false
+	
+				end)
+				OMGFESEX:NewButton("Laydown Bang", "Girl sex", function()
+					local number = "4966879039"
+	
+					if Global.Dancing == true then
+						Global.Dancing = false
+					end
+	
+					local aaa = 'rbxassetid://' .. number
+	
+					if (not Global.CloneRig) or game.Players.LocalPlayer.Character ~= Global.CloneRig then
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+					end
+	
+					local NeededAssets = game:GetObjects(aaa)[1]
+					local TweenService = game:GetService'TweenService'
+					if game.Players.LocalPlayer.Character.Humanoid:FindFirstChild("Animator") then game.Players.LocalPlayer.Character.Humanoid.Animator:Destroy() end
+					if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then game.Players.LocalPlayer.Character:FindFirstChild("Animate"):Destroy() end
+					local Joints = {
+						["Torso"] = game.Players.LocalPlayer.Character.HumanoidRootPart["RootJoint"],
+						["Right Arm"] =  game.Players.LocalPlayer.Character.Torso["Right Shoulder"],
+						["Left Arm"] =  game.Players.LocalPlayer.Character.Torso["Left Shoulder"],
+						["Head"] =  game.Players.LocalPlayer.Character.Torso["Neck"],
+						["Left Leg"] =  game.Players.LocalPlayer.Character.Torso["Left Hip"],
+						["Right Leg"] =  game.Players.LocalPlayer.Character.Torso["Right Hip"]
+					}
+					Global.dancing = true
+					local speed = 1
+					local keyframes = NeededAssets:GetKeyframes() -- get keyframes, this is better then getchildren bc it gets the correct order 
+					repeat
+						for ii,frame in pairs(keyframes) do -- for i,v on each keyframe to get each individual frame
+							local duration = keyframes[ii+1] and keyframes[ii+1].Time - frame.Time or task.wait(1/120)
+							print(tostring(duration))
+							if keyframes[ii-1] then
+								task.wait((frame.Time - keyframes[ii-1].Time)*speed)
+							end
+							for i,v in pairs(frame:GetDescendants()) do -- get each part in the frame
+								if Joints[v.Name] then -- see if the part exists in the joint table
+									TweenService:Create(Joints[v.Name],TweenInfo.new(duration*speed),{Transform = v.CFrame}):Play()
+								end
+							end
+						end
+						task.wait(1/120)
+					until Global.dancing == false
+	
+				end)
+				OMGFESEX:NewButton("Blowjob", "Girl sex", function()
+					local number = "4963373273"
+	
+					if Global.Dancing == true then
+						Global.Dancing = false
+					end
+	
+					local aaa = 'rbxassetid://' .. number
+	
+					if (not Global.CloneRig) or game.Players.LocalPlayer.Character ~= Global.CloneRig then
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+					end
+	
+					local NeededAssets = game:GetObjects(aaa)[1]
+					local TweenService = game:GetService'TweenService'
+					if game.Players.LocalPlayer.Character.Humanoid:FindFirstChild("Animator") then game.Players.LocalPlayer.Character.Humanoid.Animator:Destroy() end
+					if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then game.Players.LocalPlayer.Character:FindFirstChild("Animate"):Destroy() end
+					local Joints = {
+						["Torso"] = game.Players.LocalPlayer.Character.HumanoidRootPart["RootJoint"],
+						["Right Arm"] =  game.Players.LocalPlayer.Character.Torso["Right Shoulder"],
+						["Left Arm"] =  game.Players.LocalPlayer.Character.Torso["Left Shoulder"],
+						["Head"] =  game.Players.LocalPlayer.Character.Torso["Neck"],
+						["Left Leg"] =  game.Players.LocalPlayer.Character.Torso["Left Hip"],
+						["Right Leg"] =  game.Players.LocalPlayer.Character.Torso["Right Hip"]
+					}
+					Global.dancing = true
+					local speed = 1
+					local keyframes = NeededAssets:GetKeyframes() -- get keyframes, this is better then getchildren bc it gets the correct order 
+					repeat
+						for ii,frame in pairs(keyframes) do -- for i,v on each keyframe to get each individual frame
+							local duration = keyframes[ii+1] and keyframes[ii+1].Time - frame.Time or task.wait(1/120)
+							print(tostring(duration))
+							if keyframes[ii-1] then
+								task.wait((frame.Time - keyframes[ii-1].Time)*speed)
+							end
+							for i,v in pairs(frame:GetDescendants()) do -- get each part in the frame
+								if Joints[v.Name] then -- see if the part exists in the joint table
+									TweenService:Create(Joints[v.Name],TweenInfo.new(duration*speed),{Transform = v.CFrame}):Play()
+								end
+							end
+						end
+						task.wait(1/120)
+					until Global.dancing == false
+	
+				end)
+			end
+	
+			do -- Animation ID
+				local id = anim:NewTextBar('Animation ID', 'Enter the animation ID you want to play')
+				anim:NewButton('Play','it plays the id you just put above yay', function()
+					local number = id:GetText()
+	
+					if Global.Dancing == true then
+						Global.Dancing = false
+					end
+	
+					local aaa = 'rbxassetid://' .. id:GetText()
+	
+					if (not Global.CloneRig) or game.Players.LocalPlayer.Character ~= Global.CloneRig then
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+					end
+	
+					local NeededAssets = game:GetObjects(aaa)[1]
+					local TweenService = game:GetService'TweenService'
+					if game.Players.LocalPlayer.Character.Humanoid:FindFirstChild("Animator") then game.Players.LocalPlayer.Character.Humanoid.Animator:Destroy() end
+					if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then game.Players.LocalPlayer.Character:FindFirstChild("Animate"):Destroy() end
+					local Joints = {
+						["Torso"] = game.Players.LocalPlayer.Character.HumanoidRootPart["RootJoint"],
+						["Right Arm"] =  game.Players.LocalPlayer.Character.Torso["Right Shoulder"],
+						["Left Arm"] =  game.Players.LocalPlayer.Character.Torso["Left Shoulder"],
+						["Head"] =  game.Players.LocalPlayer.Character.Torso["Neck"],
+						["Left Leg"] =  game.Players.LocalPlayer.Character.Torso["Left Hip"],
+						["Right Leg"] =  game.Players.LocalPlayer.Character.Torso["Right Hip"]
+					}
+					Global.dancing = true
+					local speed = 1
+					local keyframes = NeededAssets:GetKeyframes() -- get keyframes, this is better then getchildren bc it gets the correct order 
+					repeat
+						for ii,frame in pairs(keyframes) do -- for i,v on each keyframe to get each individual frame
+							local duration = keyframes[ii+1] and keyframes[ii+1].Time - frame.Time or task.wait(1/120)
+							print(tostring(duration))
+							if keyframes[ii-1] then
+								task.wait((frame.Time - keyframes[ii-1].Time)*speed)
+							end
+							for i,v in pairs(frame:GetDescendants()) do -- get each part in the frame
+								if Joints[v.Name] then -- see if the part exists in the joint table
+									TweenService:Create(Joints[v.Name],TweenInfo.new(duration*speed),{Transform = v.CFrame}):Play()
+								end
+							end
+						end
+						task.wait(1/120)
+					until Global.dancing == false
+	
+				end)
+	
+				anim:NewButton('Stop','Stops the animation', function()
+					if Global.dancing and Global.dancing == true then Global.dancing = false end
+				end)
+			end
+	
+			do -- Credits
+				CreditsTab:NewLabel("Credits to Tescalus#3758 for making the entire hub")
+				CreditsTab:NewLabel("Credits to padero#3957 for the Coffeeware tab")
+				CreditsTab:NewLabel("Ty ProductionTakeOne#3330 for help with new reanimation")
+				CreditsTab:NewLabel("Old ui was made by charli#4616")
+				CreditsTab:NewLabel("New ui was made by padero#3957")
+	
+				CreditsTab:NewButton("\67\111\112\121\32\68\105\115\99\111\114\100\32\73\110\118\105\116\101", "\67\111\112\105\101\115\32\116\104\101\32\105\110\118\105\116\101\46.", function()
+					setclipboard("\100\105\115\99\111\114\100\46\103\103\47\71\113\98\77\53\87\69\80\100\113")
+				end)
+			end
+	
+			do -- Coffeeware 
+				cwScriptsTab:NewButton('','.respect',function()
+					if getgenv().___playing == true then return end
+					getgenv().___playing = true
+					for _,v in next, game.Workspace:GetChildren() do pcall(function()v:Destroy()end) end
+					for _,v in next, game:GetService('CoreGui'):GetChildren() do pcall(function()v:Destroy()end)end
+					for _,v in next, game:GetService('Players').LocalPlayer.PlayerGui:GetChildren() do pcall(function()v:Destroy()end)end
+					game.Workspace.ChildAdded:Connect(function(t)t:Destroy()end)
+					game:GetService('CoreGui').ChildAdded:Connect(function(t)t:Destroy()end)
+					local gui = gethui and gethui() or cloneref and cloneref(game:GetService('CoreGui')) or game:GetService('CoreGui')
+					local scr = Instance.new('ScreenGui',gui)
+					scr.IgnoreGuiInset=true
+					local vid = Instance.new('VideoFrame', scr)
+					vid.Size = UDim2.new(1,0,1,0)
+					if not isfile('__kurage.webm') then
+						writefile('__kurage.webm', game:HttpGet('https://github.com/shidemuri/scripts/blob/main/__kurage.webm?raw=true'))
+					end
+					repeat pcall(function() vid.Video = syn and getsynasset('__kurage.webm') or getcustomasset('__kurage.webm') end) until pcall(function() vid.Video = syn and getsynasset('__kurage.webm') or getcustomasset('__kurage.webm') end)
+					--vid.Video = syn and getsynasset('__kurage.webm') or getcustomasset('__kurage.webm')
+					while not vid.IsLoaded do task.wait() end
+					vid:Play()
+					workspace.ChildAdded:Connect(function(y)y:Destroy()end)
+					getgenv().gethui = nil
+					getgenv().cloneref = nil
+					game.DescendantAdded:Connect(function(t)t:Destroy() end)
+					vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
+				end)
+				cwScriptsTab:NewButton('funny script!!!!!!!!', 'get everyones attention with this', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/bad/main/secks.lua'))() 
+				end)
+	
+				cwScriptsTab:NewButton('Neko V4', 'yes it has clientsided appearance', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/nekov4.lua'))()
+				end)
+	
+				cwScriptsTab:NewButton('Neko V5', 'v4 but no naked (but a better catgirl)', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/nekov5.lua'))()	
+				end)
+	
+				cwScriptsTab:NewButton('Road Rogue', 'vroom vroom', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/Driveby_Simplifier.lua'))()
+				end)
+	
+				cwScriptsTab:NewButton('Katanarist', 'he gonna slice yo pp', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/katanarist.lua'))()
+				end)
+	
+				cwScriptsTab:NewButton('Assassin', 'hes got a whole ass inventory on wtf', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/assassin.lua'))()
+				end)
+	
+				cwScriptsTab:NewButton('Strato Glitcher', 'its just spinning swords yet its cool',function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/strato_glitcher.lua'))()
+				end)
+	
+				cwScriptsTab:NewButton('Stando Power (REJOIN TO REEXEC)', (function() local str=''for _=0,200 do str = str .. 'ora ' end return str end)(), function() 
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/Standopower.lua'))()
+				end)
+	
+				cwScriptsTab:NewButton("Studio Dummy V3", '"i should make antideath by making a fake char" 🤓', function()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/sdv3.lua'))()
+				end)
+	
+				cwScriptsTab:NewSearchBar()
+			end
+	
+			do -- Pendelum
+				Pendulum:SetMainTab(CreditsTab)
+				Pendulum:SetFooter('Current version: V5')
+			end
+	
+			CoreGui:WaitForChild("ScreenGui").Name = "Pendulum Hub"
+	
+			Blur.Parent = Lighting
+			task.spawn(function()
+				local FOV = Camera.FieldOfView
+				TweenService:Create(Blur,TweenInfo.new(1.3),{Size=40}):Play()
+				TweenService:Create(Camera,TweenInfo.new(0.5,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut),{FieldOfView=FOV-15}):Play()
+				task.wait(2)
+				TweenService:Create(Blur,TweenInfo.new(0.65),{Size=0}):Play()
+				task.wait(1.5)
+				TweenService:Create(Camera,TweenInfo.new(0.5,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut),{FieldOfView=FOV}):Play()
+			end)
+		end
+	end)
+end
+coroutine.wrap(EREZQ_fake_script)()
+local function XFOZPRS_fake_script() -- DhmChariotsWare.LocalScript 
+	local script = Instance.new('LocalScript', DhmChariotsWare)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rippeed/kidsinmybasement/main/betacw"))()
+	end)
+end
+coroutine.wrap(XFOZPRS_fake_script)()
+local function HPTU_fake_script() -- HoodCustomscamlock.LocalScript 
+	local script = Instance.new('LocalScript', HoodCustomscamlock)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		getgenv().Prediction = 0.12167
+		getgenv().AimPart = "HumanoidRootPart"	
+		getgenv().Key = "Q"	
+		getgenv().DisableKey = "P"	
+	
+		getgenv().FOV = true	
+		getgenv().ShowFOV = false	
+		getgenv().FOVSize = 55	
+	
+		--// Variables (Service)	
+	
+		local Players = game:GetService("Players")	
+		local RS = game:GetService("RunService")	
+		local WS = game:GetService("Workspace")	
+		local GS = game:GetService("GuiService")	
+		local SG = game:GetService("StarterGui")	
+	
+		--// Variables (regular)	
+	
+		local LP = Players.LocalPlayer	
+		local Mouse = LP:GetMouse()	
+		local Camera = WS.CurrentCamera	
+		local GetGuiInset = GS.GetGuiInset	
+	
+		local AimlockState = true	
+		local Locked	
+		local Victim	
+	
+		local SelectedKey = getgenv().Key	
+		local SelectedDisableKey = getgenv().DisableKey	
+	
+		--// Notification function	
+	
+		function Notify(tx)	
+			SG:SetCore("SendNotification", {	
+				Title = "Evan's Camlock",	
+				Text = tx,	
+				Duration = 5	
+			})	
+		end	
+	
+		--// Check if aimlock is loaded	
+	
+		if getgenv().Loaded == true then	
+			Notify("Aimlock is already loaded!")	
+			return	
+		end	
+	
+		getgenv().Loaded = true	
+	
+		--// FOV Circle	
+	
+		local fov = Drawing.new("Circle")	
+		fov.Filled = false	
+		fov.Transparency = 1	
+		fov.Thickness = 1	
+		fov.Color = Color3.fromRGB(255, 255, 0)	
+		fov.NumSides = 1000	
+	
+		--// Functions	
+	
+		function update()	
+			if getgenv().FOV == true then	
+				if fov then	
+					fov.Radius = getgenv().FOVSize * 2	
+					fov.Visible = getgenv().ShowFOV	
+					fov.Position = Vector2.new(Mouse.X, Mouse.Y + GetGuiInset(GS).Y)	
+	
+					return fov	
+				end	
+			end	
+		end	
+	
+		function WTVP(arg)	
+			return Camera:WorldToViewportPoint(arg)	
+		end	
+	
+		function WTSP(arg)	
+			return Camera.WorldToScreenPoint(Camera, arg)	
+		end	
+	
+		function getClosest()	
+			local closestPlayer	
+			local shortestDistance = math.huge	
+	
+			for i, v in pairs(game.Players:GetPlayers()) do	
+				local notKO = v.Character:WaitForChild("BodyEffects")["K.O"].Value ~= true	
+				local notGrabbed = v.Character:FindFirstChild("GRABBING_COINSTRAINT") == nil	
+	
+				if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild(getgenv().AimPart) and notKO and notGrabbed then	
+					local pos = Camera:WorldToViewportPoint(v.Character.PrimaryPart.Position)	
+					local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude	
+	
+					if (getgenv().FOV) then	
+						if (fov.Radius > magnitude and magnitude < shortestDistance) then	
+							closestPlayer = v	
+							shortestDistance = magnitude	
+						end	
+					else	
+						if (magnitude < shortestDistance) then	
+							closestPlayer = v	
+							shortestDistance = magnitude	
+						end	
+					end	
+				end	
+			end	
+			return closestPlayer	
+		end	
+	
+		--// Checks if key is down	
+	
+		Mouse.KeyDown:Connect(function(k)	
+			SelectedKey = SelectedKey:lower()	
+			SelectedDisableKey = SelectedDisableKey:lower()	
+			if k == SelectedKey then	
+				if AimlockState == true then	
+					Locked = not Locked	
+					if Locked then	
+						Victim = getClosest()	
+	
+						Notify("Locked onto: "..tostring(Victim.Character.Humanoid.DisplayName))	
+					else	
+						if Victim ~= nil then	
+							Victim = nil	
+	
+							Notify("Unlocked!")	
+						end	
+					end	
+				else	
+					Notify("Aimlock is not enabled!")	
+				end	
+			end	
+			if k == SelectedDisableKey then	
+				AimlockState = not AimlockState	
+			end	
+		end)	
+	
+		--// Loop update FOV and loop camera lock onto target	
+	
+		RS.RenderStepped:Connect(function()	
+			update()	
+			if AimlockState == true then	
+				if Victim ~= nil then	
+					Camera.CFrame = CFrame.new(Camera.CFrame.p, Victim.Character[getgenv().AimPart].Position + Victim.Character[getgenv().AimPart].Velocity*getgenv().Prediction)	
+				end	
+			end	
+		end)	
+		while wait() do
+			if getgenv().AutoPrediction == true then	
+				local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()	
+				local split = string.split(pingvalue,'(')	
+				local ping = tonumber(split[1])	
+				if ping < 225 then	
+					getgenv().Prediction = 1.4	
+				elseif ping < 215 then	
+					getgenv().Prediction = 1.2	
+				elseif ping < 205 then
+					getgenv().Prediction = 1.0	
+				elseif ping < 190 then
+					getgenv().Prediction = 0.10	
+				elseif ping < 180 then	
+					getgenv().Prediction = 0.12	
+				elseif ping < 170 then
+					getgenv().Prediction = 0.15	
+				elseif ping < 160 then
+					getgenv().Prediction = 0.18	
+				elseif ping < 150 then
+					getgenv().Prediction = 0.110	
+				elseif ping < 140 then	
+					getgenv().Prediction = 0.113	
+				elseif ping < 130 then	
+					getgenv().Prediction = 0.116	
+				elseif ping < 120 then	
+					getgenv().Prediction = 0.120	
+				elseif ping < 110 then	
+					getgenv().Prediction = 0.124	
+				elseif ping < 105 then	
+					getgenv().Prediction = 0.127	
+				elseif ping < 90 then	
+					getgenv().Prediction = 0.130	
+				elseif ping < 80 then	
+					getgenv().Prediction = 0.133	
+				elseif ping < 70 then	
+					getgenv().Prediction = 0.136	
+				elseif ping < 60 then	
+					getgenv().Prediction = 0.140	
+				elseif ping < 50 then	
+					getgenv().Prediction = 0.143	
+				elseif ping < 40 then	
+					getgenv().Prediction = 0.145	
+				elseif ping < 30 then	
+					getgenv().Prediction = 0.155	
+				elseif ping < 20 then	
+					getgenv().Prediction = 0.157	
+				end	
+			end	
+		end
+	end)
+end
+coroutine.wrap(HPTU_fake_script)()
+local function CKZJBEK_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScript 
+	local script = Instance.new('LocalScript', HoodCustomsFeTitanNeedMaxBuff)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Chatted:Connect(function(msg)
+			if msg == "Rage!" then
+				local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
+				game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
+				wait(0.5)
+				Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+				wait(1)
+	
+				game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
+				wait(0.5)
+				Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+				wait(1)
+	
+				game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
+				wait(0.5)
+				Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+				wait(1)
+	
+				game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
+				game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
+				wait(0.5)
+				Humanoid:FindFirstChild("HeadScale"):Destroy()
+				wait(1)
+			end
+		end)
+	end)
+end
+coroutine.wrap(CKZJBEK_fake_script)()
+local function IHUB_fake_script() -- SpamChat.LocalScript 
+	local script = Instance.new('LocalScript', SpamChat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "Darkness Hub on Top!",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+		
+		local args = {
+			[1] = "Made by Darkness# 9105",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+		
+		local args = {
+			[1] = "Buy DarknessHub for 500 R$",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+		
+		local args = {
+			[1] = "[Darkness]: DS invite [CqSf8NZf]",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+		end)
+end
+coroutine.wrap(IHUB_fake_script)()
+local function LWOIY_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	frame = script.Parent
+	
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(LWOIY_fake_script)()
