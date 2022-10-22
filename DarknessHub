@@ -29,6 +29,7 @@ local HoodCustomscamlock = Instance.new("TextButton")
 local HoodCustomsFeTitanNeedMaxBuff = Instance.new("TextButton")
 local SpamChat = Instance.new("TextButton")
 local DhDhmHoodCustomsCframeSpeed = Instance.new("TextButton")
+local Chatbypass = Instance.new("TextButton")
 local SettingsFrame = Instance.new("Frame")
 local Settings_2 = Instance.new("TextLabel")
 local Settingscomingsoon = Instance.new("TextLabel")
@@ -310,6 +311,18 @@ DhDhmHoodCustomsCframeSpeed.TextScaled = true
 DhDhmHoodCustomsCframeSpeed.TextSize = 14.000
 DhDhmHoodCustomsCframeSpeed.TextWrapped = true
 
+Chatbypass.Name = "Chat bypass"
+Chatbypass.Parent = ScriptsFrame
+Chatbypass.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Chatbypass.Position = UDim2.new(0, 0, 0.398058265, 0)
+Chatbypass.Size = UDim2.new(0, 148, 0, 41)
+Chatbypass.Font = Enum.Font.SourceSans
+Chatbypass.Text = "Chat bypass(You maybe get banned)"
+Chatbypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+Chatbypass.TextScaled = true
+Chatbypass.TextSize = 14.000
+Chatbypass.TextWrapped = true
+
 SettingsFrame.Name = "SettingsFrame"
 SettingsFrame.Parent = Frame
 SettingsFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
@@ -345,7 +358,7 @@ Settingscomingsoon.TextWrapped = true
 
 -- Scripts:
 
-local function GRGPS_fake_script() -- Scripts.LocalScript 
+local function AWBCKOX_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -354,8 +367,8 @@ local function GRGPS_fake_script() -- Scripts.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
 	end)
 end
-coroutine.wrap(GRGPS_fake_script)()
-local function MLQZUC_fake_script() -- Credits.LocalScript 
+coroutine.wrap(AWBCKOX_fake_script)()
+local function GBQXN_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -364,8 +377,8 @@ local function MLQZUC_fake_script() -- Credits.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
 	end)
 end
-coroutine.wrap(MLQZUC_fake_script)()
-local function BEGE_fake_script() -- Settings.LocalScript 
+coroutine.wrap(GBQXN_fake_script)()
+local function TROZ_fake_script() -- Settings.LocalScript 
 	local script = Instance.new('LocalScript', Settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -374,32 +387,32 @@ local function BEGE_fake_script() -- Settings.LocalScript
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
 	end)
 end
-coroutine.wrap(BEGE_fake_script)()
-local function QWHWTH_fake_script() -- RagdollEngineMalwareHub.LocalScript 
+coroutine.wrap(TROZ_fake_script)()
+local function ZAMYXLV_fake_script() -- RagdollEngineMalwareHub.LocalScript 
 	local script = Instance.new('LocalScript', RagdollEngineMalwareHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestLuaScripts/Roblox/main/MalwareHub.lua"))()
 	end)
 end
-coroutine.wrap(QWHWTH_fake_script)()
-local function REQIV_fake_script() -- CombatWarriorsProjectHook.LocalScript 
+coroutine.wrap(ZAMYXLV_fake_script)()
+local function CULVJ_fake_script() -- CombatWarriorsProjectHook.LocalScript 
 	local script = Instance.new('LocalScript', CombatWarriorsProjectHook)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
 	end)
 end
-coroutine.wrap(REQIV_fake_script)()
-local function HTQIT_fake_script() -- InfYeild.LocalScript 
+coroutine.wrap(CULVJ_fake_script)()
+local function VPSXRZ_fake_script() -- InfYeild.LocalScript 
 	local script = Instance.new('LocalScript', InfYeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(HTQIT_fake_script)()
-local function LBHVML_fake_script() -- PendulumHub.LocalScript 
+coroutine.wrap(VPSXRZ_fake_script)()
+local function MEWE_fake_script() -- PendulumHub.LocalScript 
 	local script = Instance.new('LocalScript', PendulumHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1335,16 +1348,16 @@ local function LBHVML_fake_script() -- PendulumHub.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LBHVML_fake_script)()
-local function WKYVUDU_fake_script() -- DhmChariotsWare.LocalScript 
+coroutine.wrap(MEWE_fake_script)()
+local function XRVHLY_fake_script() -- DhmChariotsWare.LocalScript 
 	local script = Instance.new('LocalScript', DhmChariotsWare)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rippeed/kidsinmybasement/main/betacw"))()
 	end)
 end
-coroutine.wrap(WKYVUDU_fake_script)()
-local function DXJC_fake_script() -- HoodCustomscamlock.LocalScript 
+coroutine.wrap(XRVHLY_fake_script)()
+local function FBHEVG_fake_script() -- HoodCustomscamlock.LocalScript 
 	local script = Instance.new('LocalScript', HoodCustomscamlock)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1547,8 +1560,8 @@ local function DXJC_fake_script() -- HoodCustomscamlock.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DXJC_fake_script)()
-local function RWJBGHS_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScript 
+coroutine.wrap(FBHEVG_fake_script)()
+local function VOTGP_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScript 
 	local script = Instance.new('LocalScript', HoodCustomsFeTitanNeedMaxBuff)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1814,8 +1827,8 @@ local function RWJBGHS_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScrip
 		end)
 	end)
 end
-coroutine.wrap(RWJBGHS_fake_script)()
-local function HXLEXNM_fake_script() -- SpamChat.LocalScript 
+coroutine.wrap(VOTGP_fake_script)()
+local function PMEW_fake_script() -- SpamChat.LocalScript 
 	local script = Instance.new('LocalScript', SpamChat)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1838,14 +1851,14 @@ local function HXLEXNM_fake_script() -- SpamChat.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 		
 		local args = {
-			[1] = "[Darkness]: DS invite [CqSf8NZf]",
+			[1] = "[Darkness]: DS invite [CstqWbzS]",
 			[2] = "All"
 		}
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 		end)
 end
-coroutine.wrap(HXLEXNM_fake_script)()
-local function ATPWBNU_fake_script() -- DhDhmHoodCustomsCframeSpeed.LocalScript 
+coroutine.wrap(PMEW_fake_script)()
+local function UUONGX_fake_script() -- DhDhmHoodCustomsCframeSpeed.LocalScript 
 	local script = Instance.new('LocalScript', DhDhmHoodCustomsCframeSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1928,8 +1941,16 @@ local function ATPWBNU_fake_script() -- DhDhmHoodCustomsCframeSpeed.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ATPWBNU_fake_script)()
-local function JRPAZOF_fake_script() -- Frame.LocalScript 
+coroutine.wrap(UUONGX_fake_script)()
+local function IQDAXL_fake_script() -- Chatbypass.LocalScript 
+	local script = Instance.new('LocalScript', Chatbypass)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser",true))()
+	end)
+end
+coroutine.wrap(IQDAXL_fake_script)()
+local function NYYKG_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	frame = script.Parent
@@ -1938,4 +1959,4 @@ local function JRPAZOF_fake_script() -- Frame.LocalScript
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(JRPAZOF_fake_script)()
+coroutine.wrap(NYYKG_fake_script)()
