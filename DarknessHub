@@ -11,8 +11,6 @@ local Scripts = Instance.new("TextButton")
 local home = Instance.new("ImageButton")
 local Credits = Instance.new("TextButton")
 local people = Instance.new("ImageButton")
-local Settings = Instance.new("TextButton")
-local settings = Instance.new("ImageButton")
 local DarknessHub_2 = Instance.new("TextLabel")
 local CreditsFrame = Instance.new("Frame")
 local Dev = Instance.new("TextLabel")
@@ -30,9 +28,7 @@ local HoodCustomsFeTitanNeedMaxBuff = Instance.new("TextButton")
 local SpamChat = Instance.new("TextButton")
 local DhDhmHoodCustomsCframeSpeed = Instance.new("TextButton")
 local Chatbypass = Instance.new("TextButton")
-local SettingsFrame = Instance.new("Frame")
-local Settings_2 = Instance.new("TextLabel")
-local Settingscomingsoon = Instance.new("TextLabel")
+local Nosssware = Instance.new("TextButton")
 
 --Properties:
 
@@ -42,20 +38,20 @@ DarknessHub.ResetOnSpawn = false
 
 Frame.Parent = DarknessHub
 Frame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
-Frame.Position = UDim2.new(0.0740354583, 0, 0.532142937, 0)
-Frame.Size = UDim2.new(0, 513, 0, 358)
+Frame.Position = UDim2.new(0.0865484849, 0, 0.340211391, 0)
+Frame.Size = UDim2.new(0, 513, 0, 359)
 
 SideFrame.Name = "SideFrame"
 SideFrame.Parent = Frame
 SideFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-SideFrame.Position = UDim2.new(-0.194931775, 0, 0, 0)
+SideFrame.Position = UDim2.new(-0.194931775, 0, 0.00279329601, 0)
 SideFrame.Size = UDim2.new(0, 136, 0, 358)
 
 ColorFrame.Name = "ColorFrame"
 ColorFrame.Parent = SideFrame
 ColorFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-ColorFrame.Position = UDim2.new(-0.0073529412, 0, 0.00499917148, 0)
-ColorFrame.Size = UDim2.new(0, 614, 0, 49)
+ColorFrame.Position = UDim2.new(-0.0073529412, 0, 0, 0)
+ColorFrame.Size = UDim2.new(0, 614, 0, 50)
 
 Scripts.Name = "Scripts"
 Scripts.Parent = SideFrame
@@ -100,28 +96,6 @@ people.ZIndex = 2
 people.Image = "rbxassetid://3926305904"
 people.ImageRectOffset = Vector2.new(144, 4)
 people.ImageRectSize = Vector2.new(24, 24)
-
-Settings.Name = "Settings"
-Settings.Parent = SideFrame
-Settings.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Settings.Position = UDim2.new(0, 0, 0.315642446, 0)
-Settings.Size = UDim2.new(0, 136, 0, 34)
-Settings.Font = Enum.Font.SourceSans
-Settings.Text = " Settings"
-Settings.TextColor3 = Color3.fromRGB(0, 0, 0)
-Settings.TextScaled = true
-Settings.TextSize = 14.000
-Settings.TextWrapped = true
-
-settings.Name = "settings"
-settings.Parent = Settings
-settings.BackgroundTransparency = 1.000
-settings.Position = UDim2.new(-0.00524929166, 0, 0.121192619, 0)
-settings.Size = UDim2.new(0, 25, 0, 25)
-settings.ZIndex = 2
-settings.Image = "rbxassetid://3926307971"
-settings.ImageRectOffset = Vector2.new(324, 124)
-settings.ImageRectSize = Vector2.new(36, 36)
 
 DarknessHub_2.Name = "Darkness Hub"
 DarknessHub_2.Parent = Frame
@@ -323,96 +297,63 @@ Chatbypass.TextScaled = true
 Chatbypass.TextSize = 14.000
 Chatbypass.TextWrapped = true
 
-SettingsFrame.Name = "SettingsFrame"
-SettingsFrame.Parent = Frame
-SettingsFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
-SettingsFrame.Position = UDim2.new(0.0701754391, 0, 0.142458096, 0)
-SettingsFrame.Size = UDim2.new(0, 477, 0, 307)
-SettingsFrame.Visible = false
-
-Settings_2.Name = "Settings:"
-Settings_2.Parent = SettingsFrame
-Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Settings_2.BackgroundTransparency = 1.000
-Settings_2.Position = UDim2.new(0, 0, -0.00651465775, 0)
-Settings_2.Size = UDim2.new(0, 132, 0, 38)
-Settings_2.Font = Enum.Font.SourceSans
-Settings_2.Text = "Settings:"
-Settings_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Settings_2.TextScaled = true
-Settings_2.TextSize = 14.000
-Settings_2.TextWrapped = true
-
-Settingscomingsoon.Name = "Settings coming soon"
-Settingscomingsoon.Parent = SettingsFrame
-Settingscomingsoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Settingscomingsoon.BackgroundTransparency = 1.000
-Settingscomingsoon.Position = UDim2.new(0.199161425, 0, 0.201954395, 0)
-Settingscomingsoon.Size = UDim2.new(0, 200, 0, 50)
-Settingscomingsoon.Font = Enum.Font.SourceSans
-Settingscomingsoon.Text = "Settings coming soon"
-Settingscomingsoon.TextColor3 = Color3.fromRGB(0, 0, 0)
-Settingscomingsoon.TextScaled = true
-Settingscomingsoon.TextSize = 14.000
-Settingscomingsoon.TextWrapped = true
+Nosssware.Name = "Nosssware"
+Nosssware.Parent = ScriptsFrame
+Nosssware.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Nosssware.Position = UDim2.new(0.310272545, 0, 0.398058265, 0)
+Nosssware.Size = UDim2.new(0, 148, 0, 41)
+Nosssware.Font = Enum.Font.SourceSans
+Nosssware.Text = "Nosssware"
+Nosssware.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nosssware.TextScaled = true
+Nosssware.TextSize = 14.000
+Nosssware.TextWrapped = true
 
 -- Scripts:
 
-local function AWBCKOX_fake_script() -- Scripts.LocalScript 
+local function IPVSCE_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.CreditsFrame.Visible = false
-		script.Parent.Parent.Parent.SettingsFrame.Visible = false
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
 	end)
 end
-coroutine.wrap(AWBCKOX_fake_script)()
-local function GBQXN_fake_script() -- Credits.LocalScript 
+coroutine.wrap(IPVSCE_fake_script)()
+local function HDNAP_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.CreditsFrame.Visible = true
-		script.Parent.Parent.Parent.SettingsFrame.Visible = false
 		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
 	end)
 end
-coroutine.wrap(GBQXN_fake_script)()
-local function TROZ_fake_script() -- Settings.LocalScript 
-	local script = Instance.new('LocalScript', Settings)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.CreditsFrame.Visible = false
-		script.Parent.Parent.Parent.SettingsFrame.Visible = true
-		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
-	end)
-end
-coroutine.wrap(TROZ_fake_script)()
-local function ZAMYXLV_fake_script() -- RagdollEngineMalwareHub.LocalScript 
+coroutine.wrap(HDNAP_fake_script)()
+local function WTXUBA_fake_script() -- RagdollEngineMalwareHub.LocalScript 
 	local script = Instance.new('LocalScript', RagdollEngineMalwareHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestLuaScripts/Roblox/main/MalwareHub.lua"))()
 	end)
 end
-coroutine.wrap(ZAMYXLV_fake_script)()
-local function CULVJ_fake_script() -- CombatWarriorsProjectHook.LocalScript 
+coroutine.wrap(WTXUBA_fake_script)()
+local function TVVSLJ_fake_script() -- CombatWarriorsProjectHook.LocalScript 
 	local script = Instance.new('LocalScript', CombatWarriorsProjectHook)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
 	end)
 end
-coroutine.wrap(CULVJ_fake_script)()
-local function VPSXRZ_fake_script() -- InfYeild.LocalScript 
+coroutine.wrap(TVVSLJ_fake_script)()
+local function HWFM_fake_script() -- InfYeild.LocalScript 
 	local script = Instance.new('LocalScript', InfYeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(VPSXRZ_fake_script)()
-local function MEWE_fake_script() -- PendulumHub.LocalScript 
+coroutine.wrap(HWFM_fake_script)()
+local function YZFOI_fake_script() -- PendulumHub.LocalScript 
 	local script = Instance.new('LocalScript', PendulumHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1348,16 +1289,16 @@ local function MEWE_fake_script() -- PendulumHub.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MEWE_fake_script)()
-local function XRVHLY_fake_script() -- DhmChariotsWare.LocalScript 
+coroutine.wrap(YZFOI_fake_script)()
+local function VGMDOF_fake_script() -- DhmChariotsWare.LocalScript 
 	local script = Instance.new('LocalScript', DhmChariotsWare)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rippeed/kidsinmybasement/main/betacw"))()
 	end)
 end
-coroutine.wrap(XRVHLY_fake_script)()
-local function FBHEVG_fake_script() -- HoodCustomscamlock.LocalScript 
+coroutine.wrap(VGMDOF_fake_script)()
+local function LMCG_fake_script() -- HoodCustomscamlock.LocalScript 
 	local script = Instance.new('LocalScript', HoodCustomscamlock)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1560,8 +1501,8 @@ local function FBHEVG_fake_script() -- HoodCustomscamlock.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FBHEVG_fake_script)()
-local function VOTGP_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScript 
+coroutine.wrap(LMCG_fake_script)()
+local function XMQCMP_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScript 
 	local script = Instance.new('LocalScript', HoodCustomsFeTitanNeedMaxBuff)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1827,8 +1768,8 @@ local function VOTGP_fake_script() -- HoodCustomsFeTitanNeedMaxBuff.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VOTGP_fake_script)()
-local function PMEW_fake_script() -- SpamChat.LocalScript 
+coroutine.wrap(XMQCMP_fake_script)()
+local function BPQSTL_fake_script() -- SpamChat.LocalScript 
 	local script = Instance.new('LocalScript', SpamChat)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1857,8 +1798,8 @@ local function PMEW_fake_script() -- SpamChat.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 		end)
 end
-coroutine.wrap(PMEW_fake_script)()
-local function UUONGX_fake_script() -- DhDhmHoodCustomsCframeSpeed.LocalScript 
+coroutine.wrap(BPQSTL_fake_script)()
+local function YSJCB_fake_script() -- DhDhmHoodCustomsCframeSpeed.LocalScript 
 	local script = Instance.new('LocalScript', DhDhmHoodCustomsCframeSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1941,16 +1882,24 @@ local function UUONGX_fake_script() -- DhDhmHoodCustomsCframeSpeed.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(UUONGX_fake_script)()
-local function IQDAXL_fake_script() -- Chatbypass.LocalScript 
+coroutine.wrap(YSJCB_fake_script)()
+local function PAYGT_fake_script() -- Chatbypass.LocalScript 
 	local script = Instance.new('LocalScript', Chatbypass)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser",true))()
 	end)
 end
-coroutine.wrap(IQDAXL_fake_script)()
-local function NYYKG_fake_script() -- Frame.LocalScript 
+coroutine.wrap(PAYGT_fake_script)()
+local function NJWKKP_fake_script() -- Nosssware.LocalScript 
+	local script = Instance.new('LocalScript', Nosssware)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+	end)
+end
+coroutine.wrap(NJWKKP_fake_script)()
+local function BTPFE_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	frame = script.Parent
@@ -1959,4 +1908,10 @@ local function NYYKG_fake_script() -- Frame.LocalScript
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(NYYKG_fake_script)()
+coroutine.wrap(BTPFE_fake_script)()
+local function TMATB_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local Blur = Instance.new("BlurEffect")
+end
+coroutine.wrap(TMATB_fake_script)()
